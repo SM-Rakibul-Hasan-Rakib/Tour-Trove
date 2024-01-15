@@ -1,3 +1,66 @@
-@media screen  and {
+@media screen and (max-width: 600px){
+  nav{
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container-icon .menu-btn i{
+    display: block;
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+  nav ul{
+
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    color: #fff;
+    height: 40vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: -100%;
+ }
+  nav ul li {
+    margin: 40px 0;
+    
+  }
+  nav ul li a {
+    font-size: 1.25 rem;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+
+  }
+  .nav-img{
+    justify-content: left;
+    margin-right: 100%;
+  }
+  /* banner */
+   /* .banner{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+  .banner-descrption h2{
+      font-size: 20px;
+      
+  }
+  .banner-descrption p{
+    font-size: 10px;
+  }
+  .banner-img img{
+    
+    width: 100%;
+    height: 500px;
+  }
+ .form-header{
+    display: inline-flex; 
   
-}
+    
+    
+  }
+ } */
