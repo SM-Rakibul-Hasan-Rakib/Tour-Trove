@@ -15,7 +15,7 @@ nav {
   height: 100px;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid #424247;
+
   padding: 0px 50px 0px 100px;
 }
 nav ul {
@@ -373,7 +373,6 @@ li {
   display: flex;
   background-image: url("../Images/Group\ 40.png");
   width: 1170px;
-  border: 2px solid tomato;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -414,7 +413,6 @@ li {
   font-size: 20px;
   margin-top: 5px;
   font-weight: 800;
-  
 }
 .discount-card-1 .inner-card button {
   color: #fff;
@@ -429,7 +427,7 @@ li {
   display: flex;
   background-image: url("../Images/Group\ 39.png");
   width: 1170px;
-  border: 2px solid tomato;
+
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -482,12 +480,11 @@ li {
   margin-bottom: 15px;
 }
 
-
 .discount-card-3 {
   display: flex;
   background-image: url("../Images/Group\ 40.png");
   width: 1170px;
-  border: 2px solid tomato;
+
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -539,19 +536,19 @@ li {
   margin-left: 30%;
 }
 
-.discount-text{
+.discount-text {
   text-align: center;
   margin-bottom: 25px;
   margin-left: 20px;
   margin-right: 20px;
 }
-.discount-text h1{
+.discount-text h1 {
   margin-bottom: 10px;
   color: #131318;
   font-size: 40px;
   font-weight: 800;
 }
-.discount-text p{
+.discount-text p {
   line-height: 26px;
   font-size: 16px;
   font-weight: 400;
@@ -614,16 +611,22 @@ li {
 }
 
 /* news-content */
-.news{
+.news {
   width: 100%;
-  height: 400px;
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background: red;
 }
-.news-selter{
+.news-selter {
   width: 95%;
   gap: 10px;
   justify-content: space-between;
 }
-.news-content{
+.news-content {
   width: 50%;
   height: 338px;
   flex-direction: column;
@@ -631,23 +634,23 @@ li {
   border: 2px solid tomato;
   border-radius: 10px;
 }
-.news-content button{
+.news-content button {
   align-self: start;
   background-color: #ff5400;
 }
-.news-content h1{
+.news-content h1 {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
 }
-.news-content p{
+.news-content p {
   color: #5a5a5d;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   margin-top: 20px;
 }
-.news-content input{
+.news-content input {
   width: 393px;
   height: 52px;
   flex-shrink: 0;
@@ -656,15 +659,22 @@ li {
   padding: auto;
 }
 
- .news-img img{
+.news-img {
+  position: relative;
+  height: 100%;
+  background-image: url("../Images/Rectangle\ 10.png");
+  background-repeat: no-repeat;
   width: 100%;
-} 
-form{
+  background-position: center center;
+  background-size: cover;
+}
+
+form {
   gap: 10px;
   margin-top: 20px;
   flex-direction: column;
 }
-.parsent{
+.parsent {
   width: 300px;
   height: 120px;
   transform: rotate(-29.6238deg);
@@ -674,9 +684,9 @@ form{
   flex-direction: column;
   bottom: 70px;
   right: 10px;
-  
+  position: absolute;
 }
-.parsent p{
+.parsent p {
   columns: #fff;
   text-align: center;
   font-size: 24px;
@@ -684,40 +694,42 @@ form{
   font-weight: 400;
   line-height: normal;
 }
-.parsent h2{
+.parsent h2 {
   color: #fff;
   font-size: 32px;
   font-weight: 800;
   line-height: normal;
 }
- footer{
+footer {
   height: 500px;
-  background: rgba(19, 19, 24, 0.05);;
+  background: rgba(19, 19, 24, 0.05);
   margin: 0 auto;
 }
-.travel-description{
+.travel-description {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
   flex-direction: column;
-
 }
-.travel-description h4{
+.travel-description h4 {
   font-size: 32px;
-  
+
   font-weight: 800;
-  color: var(--Dark-01,#131318);
+  color: var(--Dark-01, #131318);
 }
-.travel-description p{
+.travel-description span {
+  color: #ff5400;
+}
+.travel-description p {
   margin-top: 20px;
 }
-.travel-icon{
+.travel-icon {
   margin-top: 40px;
   margin-left: 45%;
-  
+  margin-bottom: 30px;
 }
-.footer{
+.footer {
   margin-top: 100px;
   margin-left: 45%;
 }

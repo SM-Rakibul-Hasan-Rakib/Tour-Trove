@@ -5,6 +5,11 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .news{
+    flex-direction: column;
+    
+  }
+  
   .container-icon .menu-btn i{
     display: block;
     margin-top: -80px;
@@ -80,4 +85,22 @@
   width: 200%;
 }
 
+
+}
+@media screen and (max-width:992px){
+  .discount-card-3{
+    width: 70%;
+     margin-left: 10px;
+    margin-right: 10px;
+  }
+  .discount-card-1{
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .discount-card-2{
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
