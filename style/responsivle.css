@@ -40,27 +40,44 @@
     justify-content: left;
     margin-right: 100%;
   }
-  /* banner */
-   /* .banner{
-    margin-left: 20px;
-    margin-right: 20px;
-   }
-  .banner-descrption h2{
-      font-size: 20px;
-      
+  .destination-img .img-1,
+  .destination-img .img-2,.destination-img 
+  .img-3{
+    flex-wrap: wrap;
   }
-  .banner-descrption p{
-    font-size: 10px;
+  .banner-input{
+    background: none;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 15px;
   }
-  .banner-img img{
-    
-    width: 100%;
-    height: 500px;
+  .service-img-3{
+    margin-left: 40px;
+    margin-right: 40px;
   }
- .form-header{
-    display: inline-flex; 
-  
-    
-    
-  }
- } */
+.popular{
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.popular-img{
+  width: 100%;
+  margin-top: 20px;
+
+}
+.discount-card-1{
+  width: 90%;
+}
+.discount-card-2{
+  width: 90%;
+}
+.discount-card-3{
+  width: 90%;
+}
+.place{
+  flex-direction: column;
+}
+.place-img img {
+  width: 200%;
+}
+
+}
