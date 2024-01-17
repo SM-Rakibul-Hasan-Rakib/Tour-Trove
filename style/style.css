@@ -619,20 +619,21 @@ li {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  background: red;
+  
+  
 }
 .news-selter {
-  width: 95%;
+  width: 90%;
   gap: 10px;
   justify-content: space-between;
 }
 .news-content {
-  width: 50%;
+ max-width: 50%;
   height: 338px;
   flex-direction: column;
   gap: 10px;
   border: 2px solid tomato;
-  border-radius: 10px;
+  
 }
 .news-content button {
   align-self: start;
@@ -649,6 +650,7 @@ li {
   font-weight: 400;
   line-height: 26px;
   margin-top: 20px;
+  margin-top: 50px;
 }
 .news-content input {
   width: 393px;
@@ -664,9 +666,10 @@ li {
   height: 100%;
   background-image: url("../Images/Rectangle\ 10.png");
   background-repeat: no-repeat;
-  width: 100%;
-  background-position: center center;
+  width: 60%;
+  background-position: center ;
   background-size: cover;
+
 }
 
 form {
@@ -683,7 +686,9 @@ form {
   background: #ff5400;
   flex-direction: column;
   bottom: 70px;
+  
   right: 10px;
+  text-align: center;
   position: absolute;
 }
 .parsent p {
@@ -700,10 +705,12 @@ form {
   font-weight: 800;
   line-height: normal;
 }
+/* footer */
 footer {
   height: 500px;
-  background: rgba(19, 19, 24, 0.05);
-  margin: 0 auto;
+ background: rgba(251, 181, 99, 0.05); 
+  margin: 20px auto;
+  border: 2px solid tomato;
 }
 .travel-description {
   display: flex;
